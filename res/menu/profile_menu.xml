@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_basic_info"
+        android:icon="@drawable/ic_basic_info"
+        android:title="Basic Info"></item>
+
+    <item
+        android:id="@+id/nav_med_record"
+        android:icon="@drawable/ic_med_record"
+        android:title="Med Record"></item>
+
+    <item
+        android:id="@+id/nav_vaccine_card"
+        android:icon="@drawable/ic_vax_record"
+        android:title="Vaccination"></item>
+
+    <item
+        android:id="@+id/nav_emergency_cont"
+        android:icon="@drawable/ic_emerg_cont"
+        android:title="Emergency"></item>
+</menu>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HealthDeclaration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/blue_light"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Daily Health Declaration Form"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_dark"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_dark"
+                        android:fontFamily="@font/didact_gothic"
+                        android:textSize="20sp"
+                        android:text="Date:" />
+
+                    <EditText
+                        android:id="@+id/etQ0Date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="DD-MM-YY"
+                        android:textColor="@color/grey_dark"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColorHint="@color/grey_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_dark"
+                        android:fontFamily="@font/didact_gothic"
+                        android:textSize="20sp"
+                        android:text="ID Number:" />
+
+                    <EditText
+                        android:id="@+id/etQ1IDNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint=" "
+                        android:textColor="@color/grey_dark"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColorHint="@color/grey_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_dark"
+                        android:fontFamily="@font/didact_gothic"
+                        android:textSize="20sp"
+                        android:text="Surname:" />
+
+                    <EditText
+                        android:id="@+id/etQ2Surname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint=" "
+                        android:textColor="@color/grey_dark"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColorHint="@color/grey_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_dark"
+                        android:fontFamily="@font/didact_gothic"
+                        android:textSize="20sp"
+                        android:text="Vaccination Status:" />
+
+                    <EditText
+                        android:id="@+id/etQ3VaxStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint=" "
+                        android:textColor="@color/grey_dark"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColorHint="@color/grey_dark" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:hint="Please indicate any symptoms you are feeling, e.g. sore throat, cough, colds, fever, diarrhea, loss of smell, taste, body pains, headache, skin rashes, sore eyes, shortness of breath. Write NONE if you're not experiencing any of it."
+                    android:textColor="@color/grey_dark"
+                    android:textStyle="italic"
+                    android:textColorHint="@color/grey_dark" />
+
+                <EditText
+                    android:id="@+id/etQ4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Symptoms you are feeling"
+                    android:textColor="@color/grey_dark"
+                    android:textColorHint="@color/grey_dark"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Have you worked together or stayed in the same close environment of a confirmed COVID-19 case?"
+                        android:textColor="@color/grey_dark"
+                        android:textStyle="italic"
+                        android:textColorHint="@color/grey_dark" />
+
+                    <EditText
+                        android:id="@+id/etQ5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Yes/No"
+                        android:textColor="@color/grey_dark"
+                        android:textColorHint="@color/grey_dark"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Have you had any contact with anyone with fever, cough, colds, LBM, sore throat in the past 2 weeks."
+                        android:textColor="@color/grey_dark"
+                        android:textStyle="italic"
+                        android:textColorHint="@color/grey_dark" />
+
+                    <EditText
+                        android:id="@+id/etQ6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Yes/No"
+                        android:textColor="@color/grey_dark"
+                        android:textColorHint="@color/grey_dark"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Have you travelled outside of the Philippines in the last 21 days?"
+                        android:textColor="@color/grey_dark"
+                        android:textStyle="italic"
+                        android:textColorHint="@color/grey_dark" />
+
+                    <EditText
+                        android:id="@+id/etQ7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Yes/No"
+                        android:textColor="@color/grey_dark"
+                        android:textColorHint="@color/grey_dark"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Have you travelled outside Cebu province for the past 2 weeks?"
+                        android:textColor="@color/grey_dark"
+                        android:textStyle="italic"
+                        android:textColorHint="@color/grey_dark" />
+
+                    <EditText
+                        android:id="@+id/etQ8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Yes/No"
+                        android:textColor="@color/grey_dark"
+                        android:textColorHint="@color/grey_dark"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:hint="Do you authorize iKiosk Tech Support (a UCB-based group that provides technical assistance in COVID-19 precautionary measurements), to collect and process the data indicated herein for the purpose of effecting control of the COVID-19 Infection?"
+                    android:textColor="@color/grey_dark"
+                    android:textStyle="italic"
+                    android:textColorHint="@color/grey_dark" />
+
+                <EditText
+                    android:id="@+id/etQ9Authorization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Yes/No"
+                    android:textColor="@color/grey_dark"
+                    android:textColorHint="@color/grey_dark"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="By typing YES, I understand that my personal information is protected by R.A. 10173, Data Privacy Act of 2012, and that I am required by R.A. 11469, Bayanihan to Heal as One Act, to provide truthful information."
+                    android:textColor="@color/grey_dark"
+                    android:textStyle="italic"
+                    android:textColorHint="@color/grey_dark" />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/blue_light" >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Back"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="Submit dhd" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".frag_art_menu.FragmentUniversityGuidelines">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Health Protocols"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/grey_dark"
+            android:fontFamily="@font/maven_pro"
+            />
+
+        <TextView
+            android:id="@+id/tv_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="COVID-19 vaccinations are encouraged but do not prevent you from getting COVID-19 but reduce your risk of progression to serious illness, hospitalization, or death."
+            android:textSize="20sp"
+            android:fontFamily="@font/didact_gothic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="Face masks are no longer required in any public spaces. However, it is mandatory to use face masks upon entering university premises. The CDC recommendation for mask use is fluid, depending on the level of community transmission and a person’s risk for serious illness."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="At all COVID-19 Community Levels:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Stay up to date on vaccination, including recommended booster doses."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Avoid contact with people who have a suspected or confirmed COVID-19 infection."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Follow recommendations for isolation if you have suspected or confirmed COVID-19 infection."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Follow the recommendations for what to do if you are exposed to someone with COVID-19."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="If you are at high risk of getting very sick, talk with a healthcare provider about additional prevention actions."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

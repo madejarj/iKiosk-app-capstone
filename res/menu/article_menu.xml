@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_overview"
+        android:icon="@drawable/ic_covid_overview"
+        android:title="COVID19"></item>
+
+    <item
+        android:id="@+id/nav_symptoms"
+        android:icon="@drawable/ic_covid_symptoms"
+        android:title="Symptoms"></item>
+
+    <item
+        android:id="@+id/nav_vaccines"
+        android:icon="@drawable/ic_vacc_facts"
+        android:title="Vaccines"></item>
+
+    <item
+        android:id="@+id/nav_ucbguidelines"
+        android:icon="@drawable/ic_univ_guidelines"
+        android:title="Guidelines"></item>
+
+    <item
+        android:id="@+id/nav_manual"
+        android:icon="@drawable/ic_ikiosk_manual"
+        android:title="Manual"></item>
+
+</menu>

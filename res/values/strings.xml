@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Beta_iKiosk_vr1.4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linktosite"> <a href="https://forms.gle/vdhLrXuyjb1DCdyC7">Fill up</a>
+    </string>
+</resources>

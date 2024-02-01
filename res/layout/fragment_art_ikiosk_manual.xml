@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".frag_art_menu.FragmentIkioskManual">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/grey_dark"
+            android:fontFamily="@font/maven_pro"
+            android:text="iKiosk Manual"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="The iKiosk can be operated in three basic steps: scan, tap, and sterilize."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/didact_gothic"
+            android:textStyle="bold"
+            android:text="1. Scan your temperature"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="A temperature reader is installed on the right side of the iKiosk. It is a contactless thermometer that can read temperatures from 10 to 15 cm away from the reader."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/didact_gothic"
+            android:textStyle="bold"
+            android:text="2. Tap your ID card"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="An RFID reader is installed in the middle of the iKiosk. Make sure to bring your school ID, as it will serve as your proof of identity and will be used to register your temperature in the record."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/didact_gothic"
+            android:textStyle="bold"
+            android:text="3. Sterilize your hand"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/didact_gothic"
+            android:layout_marginBottom="30dp"
+            android:text="A proximity sensor is installed on the left side of the iKiosk. It is a contactless sensor that dispenses alcohol or sanitizer when an object, such as a hand, is recognized in proximity of 2 to 30 cm away from the sensor."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_title_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/grey_dark"
+            android:fontFamily="@font/maven_pro"
+            android:text="iKiosk App Manual"
+
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/didact_gothic"
+            android:text="The iKiosk App is only compatible in an Android device and requires internet."
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

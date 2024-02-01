@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".frag_art_menu.FragmentVaccineFacts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:text="What vaccines are there against COVID-19?"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/grey_dark"
+            android:fontFamily="@font/maven_pro"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_content_para1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:text="There are several COVID-19 vaccines validated for use by WHO (given Emergency Use Listing). The first mass vaccination programme started in early December 2020 and the number of vaccination doses administered is updated on a daily basis on the COVID-19 dashboard."
+            android:textSize="20sp"
+            android:fontFamily="@font/didact_gothic"/>
+
+        <TextView
+            android:id="@+id/tv_content_para3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:text="In line with their national regulations and legislation, countries have the autonomy to issue emergency use authorizations for any health product.  Domestic emergency use authorizations are issued at the discretion of countries and not subject to WHO approval."
+            android:textSize="20sp"
+            android:fontFamily="@font/didact_gothic"/>
+
+        <TextView
+            android:id="@+id/tv_content_para4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:text="As of 12 January 2022, the following vaccines have obtained EUL:"
+            android:textSize="20sp"
+            android:fontFamily="@font/didact_gothic"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_1pfizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Pfizer/BioNTech Comirnaty vaccine, 31 December 2020."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_2astrazeneca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="SII/COVISHIELD and AstraZeneca/AZD1222 vaccines, 16 February 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_3johnson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Janssen/Ad26.COV 2.S vaccine developed by Johnson and Johnson, 12 March 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_4moderna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Moderna COVID-19 vaccine (mRNA 1273), 30 April 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_5sinopharm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Sinopharm COVID-19 vaccine, 7 May 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_6sinovac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Sinovac-CoronaVac vaccine, 1 June 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_7biotech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Bharat Biotech BBV152 COVAXIN vaccine, 3 November 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_8covovax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Covovax (NVX-CoV2373) vaccine, 17 December 2021."
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+            <TextView
+                android:id="@+id/tv_content_para4_9nuvaxovid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Nuvaxovid (NVX-CoV2373) vaccine, 20 December 2021"
+                android:textSize="20sp"
+                android:fontFamily="@font/didact_gothic"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
