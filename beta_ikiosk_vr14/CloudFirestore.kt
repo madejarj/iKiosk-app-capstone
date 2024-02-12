@@ -83,23 +83,5 @@ class CloudFirestore : AppCompatActivity() {
             "regions" to listOf("jingjinji", "hebei")
         )
         cities.document("BJ").set(data5)*/
-
-/*
-
-        db.collection("users").document("18463435 Madeja").set(data)
-
-        val name = hashMapOf(
-            "name_first" to "Ruben John",
-            "name_surname" to "Madeja",
-        )
-
-        db.collection("18463435 Madeja")
-            .add("data")
-            .addOnSuccessListener { documentReference ->
-                Log.d(TAG, "")
-            }
-
-        docData["objectExample"]
-*/
     }
 }
