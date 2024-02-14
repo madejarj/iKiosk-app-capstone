@@ -56,7 +56,7 @@ class TempReport : AppCompatActivity() {
         finish()
     }
 
-    //for laoding all task from server
+    //for loading all task from server
     fun loadAllData(userID: String) {
 
         val taksList = ArrayList<TempModel>()
