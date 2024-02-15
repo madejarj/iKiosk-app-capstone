@@ -9,8 +9,5 @@ class HealthDeclaration : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ocl_health_declaration)
-
-/*        val dhdform = findViewById<TextView>(R.id.btn_dhdf)
-        dhdform.movementMethod = LinkMovementMethod.getInstance()*/
     }
 }
